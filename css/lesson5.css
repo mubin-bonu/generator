@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
 body {
-    background: #06bdc1;
-    background: -webkit-radial-gradient(center, #06bdc1, #68469f);
-    background: -moz-radial-gradient(center, #06bdc1, #68469f);
-    background: radial-gradient(ellipse at center, #06bdc1, #68469f);
+    background: url("../images/img.jpeg") no-repeat center/cover;
+    /*background: #06bdc1;*/
+    /*background: -webkit-radial-gradient(center, #06bdc1, #68469f);*/
+    /*background: -moz-radial-gradient(center, #06bdc1, #68469f);*/
+    /*background: radial-gradient(ellipse at center, #06bdc1, #68469f);*/
 }
 
 .container {
@@ -31,8 +32,8 @@ body {
     padding: 0 25px;
     color: gray;
     border-radius: 10px;
-    background-color: #f4edea;
-    border: 10px solid #06bdc1;
+    background-color: #fcdbaa;
+    border: 10px solid rgb(154, 107, 6);
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.9);
 }
 
@@ -50,6 +51,15 @@ body {
 .quote-btn {
     padding-top: 25px;
 
+}
+.quote-btn button {
+    background: #fcdbaa;
+    border-color: #9A6B06FF;
+}
+.quote-btn button:hover{
+    background:#9A6B06FF ;
+    border-color: #9A6B06FF;
+    transition: 1s;
 }
 @media (max-width: 1280px) {
     .container {
