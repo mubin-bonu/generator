@@ -45,8 +45,6 @@ const generateRandom=()=>{
 }
 
 document.querySelector('#generate').addEventListener('click',generateRandom)
-
-
 click.addEventListener("click", ()=> {
     current++;
     if (current <= 15){
